@@ -1,0 +1,108 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+}
+
+ body{
+        background-color: rgb(240, 202, 214);
+        font-family:'Times New Roman', Times, serif;
+        font-size: large;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+ }
+ header{
+    background-color: rgba(241, 5, 76, 0.699);
+    display:block;
+    color: white;
+    font-family:fantasy;
+    text-shadow: 0 0 8px rgb(34, 212, 212);/*text-shadow: x, y, offset, color*/
+ }
+
+ .pagetitle{
+    text-align: center;
+    padding: 5px;
+ }
+
+ .ulheader{
+    list-style-type:none;
+    color: black;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+ }
+ .liheader{
+    text-decoration: underline 1px black;
+ }
+ .liheader:hover{
+    color: whitesmoke;
+    cursor:pointer;
+    text-decoration: underline 1px whitesmoke;
+ }
+
+ div{
+    max-height: 100%;
+ }
+
+ main{
+    display: block;
+    flex: 1;
+ }
+
+ section {
+    box-shadow: 0 0 20px rgb(212, 133, 150);/*text-shadow: x, y, offset, color*/  
+    max-width: 95vw;
+    margin-top: 3vh;
+    margin-left: 1.75vw; 
+    border-radius: 8px;  
+ }
+
+ fieldset{
+    border-radius: 8px;  
+ }
+
+ footer {
+    background-color: rgba(241, 5, 76, 0.699);
+ }
+
+ legend {
+    font-family:fantasy;
+    text-shadow: 0 0 8px rgb(34, 212, 212);/*text-shadow: x, y, offset, color*/
+ }
+
+ p {
+    padding-left: 20px;
+    padding-right:  20px;
+ }
+
+ .imagecontainer{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .img{
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    border: 2px solid white;
+    margin-left: 20px;
+ }
+
+footer {
+   text-align: center;
+    bottom: 0;
+}
+
+header, main, footer{
+   height: auto;
+}
+ 
+
+
